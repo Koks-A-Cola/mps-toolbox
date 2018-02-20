@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,29,0" name="mpstools.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:222ccee9-78e6-4f69-acb9-451e67ed2391(mpstools.constraints)/8629236578590794218">
+    <file name="IntlAlias_Constraints.java">
+      <node id="8629236578590794218" at="32,34,33,136" concept="8" />
+      <node id="8629236578590794218" at="37,90,38,131" concept="4" />
+      <node id="8629236578590794218" at="41,44,42,20" concept="5" />
+      <node id="8629236578590794218" at="49,63,50,58" concept="5" />
+      <node id="8629236578591275037" at="54,13,55,0" concept="6" />
+      <node id="8629236578590964622" at="55,0,56,66" concept="4" />
+      <node id="8629236578591209423" at="58,45,59,117" concept="2" />
+      <node id="8629236578591571640" at="61,49,62,121" concept="2" />
+      <node id="8629236578591720753" at="66,17,67,0" concept="6" />
+      <node id="8629236578591753415" at="67,0,68,82" concept="4" />
+      <node id="8629236578590846775" at="70,52,71,32" concept="5" />
+      <node id="8629236578590794218" at="78,7,79,22" concept="5" />
+      <node id="8629236578590794218" at="81,0,82,0" concept="7" trace="breakingNode_bxoel1_a0a0a0a0a1a0b0a1a2" />
+      <node id="8629236578590794218" at="32,0,35,0" concept="1" trace="IntlAlias_Constraints#()V" />
+      <node id="8629236578591569976" at="61,0,64,0" concept="3" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8629236578590845593" at="70,0,73,0" concept="3" trace="getName#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="8629236578590794218" at="40,0,44,0" concept="3" trace="hasOwnScopeProvider#()Z" />
+      <node id="8629236578590794218" at="48,0,52,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="8629236578591549781" at="59,117,64,21" concept="2" />
+      <node id="8629236578590844384" at="68,82,73,16" concept="5" />
+      <node id="8629236578591208689" at="58,0,66,0" concept="3" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8629236578591192571" at="56,66,66,17" concept="2" />
+      <node id="8629236578590794218" at="53,122,74,13" concept="0" />
+      <node id="8629236578590794218" at="52,0,76,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="8629236578590794218" at="46,56,76,10" concept="5" />
+      <node id="8629236578590794218" at="44,0,78,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="8629236578590794218" at="38,131,78,7" concept="2" />
+      <node id="8629236578590794218" at="36,0,81,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="8629236578590794218" at="32,34,33,136" />
+      <scope id="8629236578590794218" at="41,44,42,20" />
+      <scope id="8629236578590794218" at="49,63,50,58" />
+      <scope id="8629236578591569977" at="61,49,62,121" />
+      <scope id="8629236578590845599" at="70,52,71,32" />
+      <scope id="8629236578590794218" at="32,0,35,0" />
+      <scope id="8629236578591569976" at="61,0,64,0">
+        <var name="it" id="8629236578591569976" />
+      </scope>
+      <scope id="8629236578590845593" at="70,0,73,0">
+        <var name="child" id="8629236578590845597" />
+      </scope>
+      <scope id="8629236578590794218" at="40,0,44,0" />
+      <scope id="8629236578590794218" at="48,0,52,0" />
+      <scope id="8629236578591208690" at="58,45,64,21" />
+      <scope id="8629236578591208689" at="58,0,66,0">
+        <var name="it" id="8629236578591208689" />
+      </scope>
+      <scope id="8629236578590843016" at="54,13,73,16">
+        <var name="elements" id="8629236578590964625" />
+        <var name="result" id="8629236578591753418" />
+      </scope>
+      <scope id="8629236578590794218" at="53,122,74,13" />
+      <scope id="8629236578590794218" at="52,0,76,0">
+        <var name="_context" id="8629236578590794218" />
+        <var name="operationContext" id="8629236578590794218" />
+      </scope>
+      <scope id="8629236578590794218" at="46,56,76,10" />
+      <scope id="8629236578590794218" at="44,0,78,0" />
+      <scope id="8629236578590794218" at="37,90,79,22">
+        <var name="references" id="8629236578590794218" />
+      </scope>
+      <scope id="8629236578590794218" at="36,0,81,0" />
+      <unit id="8629236578591569976" at="60,264,64,19" name="mpstools.constraints.IntlAlias_Constraints$1$1$1$1" />
+      <unit id="8629236578590845577" at="69,25,73,15" name="mpstools.constraints.IntlAlias_Constraints$1$1$2" />
+      <unit id="8629236578591208689" at="57,132,66,15" name="mpstools.constraints.IntlAlias_Constraints$1$1$1" />
+      <unit id="8629236578590794218" at="47,19,76,9" name="mpstools.constraints.IntlAlias_Constraints$1$1" />
+      <unit id="8629236578590794218" at="39,165,78,5" name="mpstools.constraints.IntlAlias_Constraints$1" />
+      <unit id="8629236578590794218" at="31,0,83,0" name="mpstools.constraints.IntlAlias_Constraints" />
+    </file>
+  </root>
+</debug-info>
+
