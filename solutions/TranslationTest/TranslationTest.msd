@@ -7,7 +7,8 @@
   </models>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">69a000cb-56db-442f-a085-a182111bac09(mpstools)</dependency>
+    <dependency reexport="true">69a000cb-56db-442f-a085-a182111bac09(mpstools)</dependency>
+    <dependency reexport="false">642f71f8-327a-425b-84f9-44ad58786d27(jetbrains.mps.lang.project.modules)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="1" />
@@ -20,6 +21,7 @@
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="76feb88e-768b-488a-a2c0-dc15549780c4(TranslationTest)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
+    <module reference="642f71f8-327a-425b-84f9-44ad58786d27(jetbrains.mps.lang.project.modules)" version="0" />
     <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
     <module reference="69a000cb-56db-442f-a085-a182111bac09(mpstools)" version="0" />

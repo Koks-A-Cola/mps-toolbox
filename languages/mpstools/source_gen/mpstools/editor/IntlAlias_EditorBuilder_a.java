@@ -19,6 +19,7 @@ import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.util.Computable;
 import jetbrains.mps.editor.runtime.impl.CellUtil;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 /*package*/ class IntlAlias_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
@@ -102,7 +103,7 @@ import jetbrains.mps.nodeEditor.EditorManager;
     }
 
     /*package*/ EditorCell createCell() {
-      return createComponent_t6f0l8_a0b0();
+      return createProperty_t6f0l8_a0b0();
     }
 
     @NotNull
@@ -111,8 +112,20 @@ import jetbrains.mps.nodeEditor.EditorManager;
       return myNode;
     }
 
-    private EditorCell createComponent_t6f0l8_a0b0() {
-      EditorCell editorCell = getCellFactory().createEditorComponentCell(myNode, "mpstools.editor.LocalizeableAlias");
+    private EditorCell createProperty_t6f0l8_a0b0() {
+      CellProviderWithRole provider = new PropertyCellProvider(myNode, getEditorContext());
+      provider.setRole("name");
+      provider.setNoTargetText("<no name>");
+      provider.setReadOnly(true);
+      EditorCell editorCell;
+      editorCell = provider.createEditorCell(getEditorContext());
+      editorCell.setCellId("property_name");
+      editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+      SNode attributeConcept = provider.getRoleAttribute();
+      if (attributeConcept != null) {
+        EditorManager manager = EditorManager.getInstanceFromContext(getEditorContext());
+        return manager.createNodeRoleAttributeCell(attributeConcept, provider.getRoleAttributeKind(), editorCell);
+      } else
       return editorCell;
     }
   }

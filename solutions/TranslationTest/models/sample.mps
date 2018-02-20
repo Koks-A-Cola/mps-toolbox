@@ -5,7 +5,7 @@
     <use id="69a000cb-56db-442f-a085-a182111bac09" name="mpstools" version="0" />
   </languages>
   <imports>
-    <import index="vbi9" ref="69a000cb-56db-442f-a085-a182111bac09/i:f010101(mpstools/mpstools@descriptor)" />
+    <import index="vl1m" ref="642f71f8-327a-425b-84f9-44ad58786d27/f:project#69a000cb-56db-442f-a085-a182111bac09(jetbrains.mps.lang.project.modules/module.mpstools@project_stub)" />
     <import index="hvbn" ref="r:0d9657dd-d4ac-4b70-844d-3d44fc7dc23a(mpstools.structure)" implicit="true" />
   </imports>
   <registry>
